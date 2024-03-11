@@ -31,6 +31,13 @@ By default both implementations `return 1` if there was an error or `return 0` i
 Microsoft PlaySound documentation: https://learn.microsoft.com/en-us/previous-versions/dd743680(v=vs.85)
 
 
+# Usage Example
+```bash
+gcc Play_Sound.c -o Play_Sound
+./Play_Sound 15 JH_Winter-Allegro.wav
+```
+JH_Winter-Allegro.wav is a 1:30 min clip from "Winter, Mvt 1: Allegro non molto" by John Harrison with the Wichita State University Chamber Players, which is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) License. Source: https://freemusicarchive.org/music/John_Harrison_with_the_Wichita_State_University_Chamber_Players/The_Four_Seasons_Vivaldi
+
 # Dependencies
 - It may need alsa-utils package for Linux.
 - Windows needs a C compiler like GCC which can be found in MSYS2.

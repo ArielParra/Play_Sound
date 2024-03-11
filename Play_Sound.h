@@ -146,7 +146,7 @@ extern "C" {
     
 #elif defined(__unix__)|| defined(__APPLE__) || defined(__MACH__) //*NIX (UNIX based OS)
 
-    #include <sys/types.h> // pid_t
+    #include <sys/types.h> // pid_t, setsid()
     #include <unistd.h> // fork(), execlp()
     
     #if defined(__linux__)

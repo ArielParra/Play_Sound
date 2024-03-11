@@ -41,7 +41,7 @@ int main(int argc, char *argv[]) {
     Play_Sound(file);
     printf("Playing '%s' file for %d seconds\n",file, seconds);
     for (int i = 0; i<seconds; i++){
-        printf("seconds remaining %2d\r", seconds - i); //display the remaining time
+        printf(" Seconds remaining %2d\r", seconds - i); //display the remaining time
         fflush(stdout); 
         Sleep(1000);
     }
